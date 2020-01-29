@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="The Premium Wedding Day Haircut And Experience"
+    />
+    <meta
+      name="keywords"
+      content="wedding, wedding barber, barbers, wedding barbers, barbers, premium"
+    />
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Wedding Barbers</title>
+  </head>
+  <body>
+    <!-- NavBar -->
+    <nav id="navbar" class="nav-light">
+        <ul class="h-list desktop-nav">
+          <li><a href="#about">About</a></li>
+          <li><a href="#request">Request</a></li>
+        </ul>
+        <div><img src="img/icon180x116-red.png" alt="" /></div>
+        <div class="mobile-nav">
+            <input type="checkbox" class="toggler" />
+            <div class="hamburger"><div></div></div>
+            <div class="menu">
+              <div>
+                <div>
+                  <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#request">Request</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#newsletter">newsletter</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+        </div>
+        <ul class="h-list desktop-nav">
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#newsletter">newsletter</a></li>
+        </ul>
+    </nav>
+    <main>
+
+      <!-- Showcase -->
+    <section id="showcase" class="parallax-window" data-parallax="scroll" data-image-src="img/AdobeStock_100021746.jpg">
+      <div class="showcase-content">
+        <h1 class="main-heading">
+          <span class="primary-text">The</span> Wedding Barbers
+        </h1>
+        <img src="img/icon-white.png" alt="Bow tie Logo" />
+        <p class="lead container">
+          The <span class="primary-text">Premium</span> Wedding Day Haircut And
+          Experience.
+        </p>
+        <a href="#request" class="btn-primary">Make Request</a>
+        <div class="showcase-footer">
+          <div class="container">
+            <ul class="h-list">
+              <li>
+                <a href="https://twitter.com/WeddingBarbers" target="_blank">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.facebook.com/WeddingBarbers"
+                  target="_blank"
+                >
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/theweddingbarbers"
+                  target="_blank"
+                >
+                  <i class="fa fa-instagram"></i>
+                </a>
+              </li>
+            </ul>
+            <div>
+              <i class="fa fa-map-marker primary-text"></i> Boston, MA 02136
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="about-content">
+          <div class="card w-image">
+            <img src="img/AdobeStock_72656082.jpeg" alt="" />
+            <div>
+              <div class="line-primary"></div>
+              <p>She is going to get pampered so why doesn't he?</p>
+            </div>
+          </div>
+          <div class="card">
+            <h2>A <span class="primary-text">Premium</span> Wedding Expereince</h2>
+            <ul>
+                <li>
+                    A <span class="primary-text">Premium</span> Haircut and Styling
+                    with a facial.
+                  </li>
+              <li>Get to <span class="primary-text">Relax</span> before the time of your life!</li>
+              <li>
+                Have <span class="primary-text">FUN!</span> - We provide Champage,
+                <em>Whiskey, Congnac, Rum</em>
+              </li>
+              <em>
+                <li>
+                  <span class="primary-text">Look</span> and
+                  <span class="primary-text">Feel</span> like the man of her dreams
+                  that you are!
+                </li>
+              </em>
+            </ul>
+          </div>
+          <div class="card">
+              <em><h2>Bring your <span class="primary-text">Groomsmen!</span></h2></em>
+              <p>
+                Bring the guys along and have an even better time.
+                </p><ul>
+                  <li>Groomsmen get complimentary haircuts.</li>
+                  <li>Hangout and talk about the best day of your life!</li>
+                  <li>(And possibly get joked about....)</li>
+                </ul>
+              </div>
+          <div class="card w-image">
+            <img src="img/wedding-video-camera-500.jpg" alt="" />
+            <div>
+              <div class="line-primary"></div>
+              <p>
+                Bring your photographer/ videographer to never forget an amazing time.
+              </p>
+            </div>
+          </div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Request -->
+    <section id="request" class="section">
+      <div class="container">
+        <h1 class="section-title primary-text"><em>Send us your request</em></h1>
+        <div class="line-secondary"></div>
+        <p class="secondary-text">Submit your request for your special day!</p>
+        <form action="php/request.php" method="POST" id="request-form">
+            <div class="form-items">
+                <div class="form-group">
+                    <label for="full-name" class="sr-only">Full Name</label>
+                    <input type="text" id="full-name" name="full-name" placeholder="Full Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone-number" class="sr-only">Phone Number</label>
+                    <input type="tel" id="phone-number" name="phone-number" placeholder="Phone Number">
+                </div>
+                <div class="form-group">
+                    <label for="email" class="sr-only">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="Email Address" required>
+                </div>
+                <div class="form-group">
+                    <label for="location" class="sr-only">Location of Wedding</label>
+                    <input type="text" id="location" name="location" placeholder="Location of Wedding">
+                </div>
+                <div class="form-group">
+                    <label for="date" class="sr-only">Date of Wedding</label>
+                    <input type="date" id="date" name="date" placeholder="Date of Wedding">
+                </div>
+            </div>
+            <button type="submit" class="btn-secondary">SUBMIT YOUR REQUEST</button>
+          </form>
+          <div class="response-msg"></div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section" id="testimonials">
+      <div class="container">
+        <h1 class="section-title "><em>Testimonials</em></h1>
+        <div class="line-primary"></div>
+        <div class="testimonial">
+          <img src="img/Eric-Weddding-Barbers.jpg" alt="Eric E.">
+          <div>
+              <p><em>"I usually cut my own hair, but some occasions require a skilled pro. I was referred to Rafi for a different event and ever since then, he has come through every time, including the big day. He is punctual, easy to work with, and most importantly, does an excellent job. Rafi is extremely skilled using clippers and a razor, giving you a nice sharp line up and precise shave. I would highly recommend using Rafi if you want to look your best on your wedding day or any other occasion."</em></p>
+              <p class="primary-text">Eric E.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="section" id="newsletter">
+      <div class="container">
+        <h1 class="section-title ">Newsletter</h1>
+        <div class="line-primary"></div>
+        <p class="secondary-text">Sign up for our newsletter to receive promotional deals and more information about us!</p>
+
+        <form action="php/newsletter.php" method="POST" id="newsletter-form">
+          <div class="form-items">
+            <div class="form-group">
+                <label for="newsletter-email" class="sr-only">Email Address</label>
+                <input type="email" id="newsletter-email" name="newsletter-email" placeholder="Email Address" required>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn-secondary">Subscribe</button>
+            </div>
+          </div>
+        </form>
+        <div class="response-msg"></div>
+      </div>
+    </section>
+    </main>
+    <footer class="section">
+      <div class="container">
+          <p> &copy; Olaverria Company LLC. All rights reserved.
+            </p>
+            <ul class="h-list">
+                <li>
+                  <a href="https://twitter.com/WeddingBarbers" target="_blank">
+                    <i class="fa fa-twitter fa-2x"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.facebook.com/WeddingBarbers"
+                    target="_blank"
+                  >
+                    <i class="fa fa-facebook fa-2x"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.instagram.com/theweddingbarbers"
+                    target="_blank"
+                  >
+                    <i class="fa fa-instagram fa-2x"></i>
+                  </a>
+                </li>
+              </ul>
+      </div>
+    </footer>
+    <script src="https://use.fontawesome.com/2bf9db158d.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+  <script src="js/parallax.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/request.js"></script>
+    <script src="js/newsletter.js"></script>
+  </body>
+</html>
